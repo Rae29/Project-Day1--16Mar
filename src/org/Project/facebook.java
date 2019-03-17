@@ -14,6 +14,9 @@ public class facebook {
 	 txtuser.sendKeys("rekha");
 	 WebElement txtpass =driver.findElement(By.id("pass"));
 	 txtpass.sendKeys("raeu2o2");
+	 WebElement btnlogin =driver.findElement(By.id("u_0_2"));
+	 btnlogin.click();
+	 driver.close();
 	}
 
 }
